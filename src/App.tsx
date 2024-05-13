@@ -27,7 +27,7 @@ const router = createBrowserRouter([
 
 const App: React.FC = () => {
   return (
-      <div className="App h-screen">
+      <div className="App h-screen sm:h-screen">
         <RouterProvider router={router}/>
       </div>
   );
