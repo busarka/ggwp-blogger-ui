@@ -1,11 +1,13 @@
 import React from 'react'
-import MockGameCover from '../../../assets/MockGameCover'
 import ButtonArrow from '../../../assets/ButtonArrow'
+import MockGameCover from '../../../assets/MockGameCover'
 
 export default function PosterAndForm() {
     return (
-        <div className='flex flex-col w-[300px] mr-14'>
-            <MockGameCover></MockGameCover>
+        <div className="flex flex-col w-[300px] mr-14 bg-[url('/src/assets/MockGameCover.svg')] bg-cover md:bg-none">
+            <div className="hidden md:flex md:ml-2">
+                <MockGameCover></MockGameCover>
+            </div>
             <div className='flex justify-center items-center h-[60px] bg-header-blue rounded-b-lg text-white text-4xl font-bold shadow-[0px_-20px_20px_0px_rgba(0,15,46,1)]'>
                 1000 RUB
             </div>

@@ -20,10 +20,7 @@ const router = createBrowserRouter([
       },
     ],
   },
-
 ]);
-
-///Сделать роутер главная, потом роутер на айдиИгры-старница игры,
 
 const App: React.FC = () => {
   return (
@@ -32,5 +29,7 @@ const App: React.FC = () => {
       </div>
   );
 }
+
+// надо сделать для мобилки height где-то 1500, настроить background-image для картинки. 
 
 export default App;
